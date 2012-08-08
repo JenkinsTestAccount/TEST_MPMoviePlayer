@@ -1,0 +1,331 @@
+TTEST_MPMoviePlayer
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/Info.plist TEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist
+cProcessPCH /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.pth TEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer normal armv7
+cGenerateDSYMFile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYM /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer
+cCopyStringsFile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/en.lproj/InfoPlist.strings TEST_MPMoviePlayer/en.lproj/InfoPlist.strings
+cCpResource TEST_MPMoviePlayer/Resources/Video/video.mp4 build/Release-iphoneos/TEST_MPMoviePlayer.app/video.mp4
+cProcessProductPackaging "/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision" /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision" /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision
+cTouch /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent
+cCodeSign /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+cValidate /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000005018DF6600000000000001A7
+t1343807334
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000005018DF6600000000000001E5
+t1343807334
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005018DF6800000000003AE430
+t1343807336
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005018DF69000000000052C940
+t1343807337
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005018DF690000000000257F70
+t1343807337
+s2457456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005018DF6A0000000000798EA0
+t1343807338
+s7966368
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.h
+c000000004FF42FCF000000000000017E
+t1341403087
+s382
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.m
+c000000004FF44B3400000000000009F8
+t1341410100
+s2552
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.h
+c000000004FF43D9000000000000000EA
+t1341406608
+s234
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.m
+c000000004FF451C80000000000000E11
+t1341411784
+s3601
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Resources/Video/video.mp4
+c000000004EFD4A2F0000000000CA6408
+t1325222447
+s13263880
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pch
+c000000004FF412AF0000000000000153
+t1341395631
+s339
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/en.lproj/InfoPlist.strings
+c000000004FF412AF000000000000002D
+t1341395631
+s45
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/main.m
+c000000004FF412AF000000000000015B
+t1341395631
+s347
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+t1344435059
+s340
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYM
+t1344435058
+s102
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/Info.plist
+t1344435056
+s1164
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/PkgInfo
+t1344435056
+s8
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist
+t1344435056
+s485
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer
+t1344435059
+s39088
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision
+t1344435058
+s32557
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/en.lproj/InfoPlist.strings
+t1344435058
+s42
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/video.mp4
+t1344435058
+s13263880
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.o
+t1344435057
+s80736
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.o
+t1344435057
+s76168
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/TEST_MPMoviePlayer.LinkFileList
+c000000005022737000000000000001F8
+t1344435056
+s504
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.o
+t1344435057
+s3632
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent
+t1344435058
+s432
+
+N/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision
+c00000000502135F50000000000007F2D
+t1344353781
+s32557
+
+N/var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.pth
+t1344435057
+s4040948
+
+NTEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist
+c000000004FF4522D0000000000000538
+t1341411885
+s1336
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese59d6726acd2b541^93901c27acd2b541^-163"warning: iPhone apps with a deployment target lower than 4.2.5 should include an armv6 architecture (current IPHONEOS_DEPLOYMENT_TARGET = "4.0", ARCHS = "armv7").1(21%IDEActivityLogMessage2@162"Warning: iPhone apps with a deployment target lower than 4.2.5 should include an armv6 architecture (current IPHONEOS_DEPLOYMENT_TARGET = "4.0", ARCHS = "armv7").-366128167#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"D3609A2D-3016-4AD4-962E-B34467C52DF2-
+
+CCodeSign /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+s366128167.323483
+e366128167.675080
+r1
+xCodeSign
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+o/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CodeSign build/Release-iphoneos/TEST_MPMoviePlayer.app4be45227acd2b541^fad5ac27acd2b541^-135"/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/0000000000000000^961"CodeSign build/Release-iphoneos/TEST_MPMoviePlayer.app    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/codesign --force --sign b96e19aebf5283b96acf155400c6cc4803c14d86 --resource-rules=/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist --entitlements /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app36"4420D287-1C58-4366-A857-C645B72EDBD7-
+
+CCompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366127857.683327
+e366127857.867753
+r1
+xCompileC
+xbuild/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.o
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.maa10aff1aad2b541^b725def1aad2b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.m0000000000000000^3785"CompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.o TEST_MPMoviePlayer/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-generated-files.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-own-target-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-all-target-headers.hmap -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-project-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources/armv7 -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources -F/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch -MMD -MT dependencies -MF /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.dia -c /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/AppDelegate.m -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/AppDelegate.o36"7D93EA8F-0780-4B9A-9001-6B3465234204-
+
+CCompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366127857.683343
+e366127857.872297
+r1
+xCompileC
+xbuild/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.o
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.med10aff1aad2b541^5951dff1aad2b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.m0000000000000000^3849"CompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.o TEST_MPMoviePlayer/Classes/UI/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-generated-files.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-own-target-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-all-target-headers.hmap -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-project-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources/armv7 -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources -F/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch -MMD -MT dependencies -MF /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.dia -c /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Classes/UI/MainViewController.m -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/MainViewController.o36"55BBB1F8-33A3-4EE6-8CD6-ACFFF3BC18E2-
+
+CCompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366127857.683336
+e366127857.852931
+r1
+xCompileC
+xbuild/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.o
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/main.mf10faff1aad2b541^145adaf1aad2b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/main.m0000000000000000^3743"CompileC build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.o TEST_MPMoviePlayer/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-generated-files.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-own-target-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-all-target-headers.hmap -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-project-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources/armv7 -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources -F/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch -MMD -MT dependencies -MF /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.dia -c /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/main.m -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/main.o36"3C6E0D90-8A6C-4BAA-A96B-BF8A4C32D90F-
+
+CCopyStringsFile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/en.lproj/InfoPlist.strings TEST_MPMoviePlayer/en.lproj/InfoPlist.strings
+s366127858.531985
+e366127858.561694
+r1
+xCopyStringsFile
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/en.lproj/InfoPlist.strings
+xTEST_MPMoviePlayer/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy TEST_MPMoviePlayer/en.lproj/InfoPlist.strings7c4888f2aad2b541^31ce8ff2aad2b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/en.lproj/InfoPlist.strings0000000000000000^659"CopyStringsFile build/Release-iphoneos/TEST_MPMoviePlayer.app/en.lproj/InfoPlist.strings TEST_MPMoviePlayer/en.lproj/InfoPlist.strings    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/en.lproj -- TEST_MPMoviePlayer/en.lproj/InfoPlist.strings36"29ECC275-A232-49DA-9A54-AA005CAAC24D-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist
+s366127856.956141
+e366127856.958745
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist87e0f4f0aad2b541^5070f5f0aad2b541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist0000806cfa011042^935"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app36"AF6C2F92-D769-4E9A-91D2-C8464DF78079-
+
+CCpResource TEST_MPMoviePlayer/Resources/Video/video.mp4 build/Release-iphoneos/TEST_MPMoviePlayer.app/video.mp4
+s366127858.532001
+e366127858.708423
+r1
+xCpResource
+xTEST_MPMoviePlayer/Resources/Video/video.mp4
+xbuild/Release-iphoneos/TEST_MPMoviePlayer.app/video.mp4
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Release-iphoneos/TEST_MPMoviePlayer.app/video.mp4c34788f2aad2b541^705db5f2aad2b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/video.mp4000000000080d041^831"CpResource TEST_MPMoviePlayer/Resources/Video/video.mp4 build/Release-iphoneos/TEST_MPMoviePlayer.app/video.mp4    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/Resources/Video/video.mp4 /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app36"62AF887E-25FB-46E2-9637-2A9D57842FE1-
+
+CGenerateDSYMFile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYM /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer
+s366128167.153789
+e366128167.274894
+r1
+xGenerateDSYMFile
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYM
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Generating /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYMd87d2727acd2b541^4e644627acd2b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYM/0000000000000000^742"GenerateDSYMFile build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYM build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app.dSYM36"4C26C17A-7B51-4674-84B5-0F7069F55B72-
+
+CLd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer normal armv7
+s366127857.879104
+e366127858.467020
+r1
+xLd
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer4f23e1f1aad2b541^cd8f77f2aad2b541^---0#0#0#--1253"Ld build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer normal armv7    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos -F/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos -filelist /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/Objects-normal/armv7/TEST_MPMoviePlayer.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.0 -framework MediaPlayer -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/TEST_MPMoviePlayer36"C25AA3B5-B162-42DF-AAD1-E830C053428C-
+
+CProcessInfoPlistFile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/Info.plist TEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist
+s366127856.956267
+e366127856.960717
+r1
+xProcessInfoPlistFile
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/Info.plist
+xTEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process TEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist1bf1f4f0aad2b541^aef1f5f0aad2b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist0000000000000000^921"ProcessInfoPlistFile build/Release-iphoneos/TEST_MPMoviePlayer.app/Info.plist TEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility TEST_MPMoviePlayer/TEST_MPMoviePlayer-Info.plist -genpkginfo /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/ResourceRules.plist -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/Info.plist36"697F40C3-4421-4F97-A227-D819F64DC14E-
+
+CProcessPCH /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.pth TEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366127856.968366
+e366127857.676419
+r1
+xProcessPCH
+x/var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.pth
+xTEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile TEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pchc80cf8f0aad2b541^cc29adf1aad2b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pch0000000000000000^3754"ProcessPCH /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.pth TEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-generated-files.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-own-target-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-all-target-headers.hmap -iquote /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer-project-headers.hmap -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources/armv7 -I/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/DerivedSources -F/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.dia -c /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer/TEST_MPMoviePlayer-Prefix.pch -o /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lr/f36ks4r95q58bgqwkd0d8yp80000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/TEST_MPMoviePlayer-Prefix-bzxcnmhofxchyncbnhsidoxvmpjg/TEST_MPMoviePlayer-Prefix.pch.d36"D72D71A4-5B5C-4B9D-B921-66243C429FAC-
+
+CProcessProductPackaging "/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision" /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision
+s366127858.844681
+e366127858.847204
+r1
+xProcessProductPackaging
+x/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection204"ProcessProductPackaging "/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision" build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovisionc24fd8f2aad2b541^4ce2d8f2aad2b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision0000000000000000^755"ProcessProductPackaging "/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision" build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility "/Users/user/Library/MobileDevice/Provisioning Profiles/A349B47E-F293-4192-9AAB-C76EEB3AD27D.mobileprovision" -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/embedded.mobileprovision36"9B95B503-9EBE-4C67-98DE-BE46C802711C-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent
+s366127858.940826
+e366127858.944721
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection242"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcentd9ecf0f2aad2b541^7fd9f1f2aad2b541^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent000000000080d041^857"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/TEST_MPMoviePlayer.build/Release-iphoneos/TEST_MPMoviePlayer.build/TEST_MPMoviePlayer.xcent36"62510CCE-52B8-4D95-95C1-CF916068CC17-
+
+CTouch /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+s366127858.854895
+e366127858.933054
+r1
+xTouch
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app21eadaf2aad2b541^27ddeef2aad2b541^---0#0#0#--450"Touch build/Release-iphoneos/TEST_MPMoviePlayer.app    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app36"5F9230E6-0EFB-49C6-A29B-DAE58A6717E8-
+
+CValidate /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+s366128167.683170
+e366128168.356608
+r1
+xValidate
+x/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Validate build/Release-iphoneos/TEST_MPMoviePlayer.app0af7ae27acd2b541^72535b28acd2b541^-90"Unable to validate your application. - (null)Unable to validate your application. - (null)2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57366128168#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72366128168#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@122"file://localhost/Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app/0000000000000000^594"Validate build/Release-iphoneos/TEST_MPMoviePlayer.app    cd /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/user/Documents/test/MPMoviePlayer/TEST_MPMoviePlayer/build/Release-iphoneos/TEST_MPMoviePlayer.app36"8A805802-4BD3-4577-BC1D-8AEEC1426EBD-
+
