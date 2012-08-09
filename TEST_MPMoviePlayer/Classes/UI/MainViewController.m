@@ -109,6 +109,7 @@
 {
     // Allow only landscape modes
 //	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    // rotation
     [self setFrameForOrientation:interfaceOrientation];
     return YES;
 }
